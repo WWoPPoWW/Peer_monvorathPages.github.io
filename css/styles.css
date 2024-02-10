@@ -1,7 +1,5 @@
 body{
     background-color:powderblue ;
-    min-height: 400px;
-    margin-bottom: 100px;
 }
 .tulife{
     max-width: 100%;
@@ -14,11 +12,6 @@ h1{
 }
 h2{
     color:blue; font-family: Verdana;
-}
-footer{
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 a:link{
     text-decoration: none;
