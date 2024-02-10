@@ -1,7 +1,21 @@
-body{
-    background-color:powderblue ;
+html{
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
 }
 
+body{
+    background-color:powderblue ;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+.tulife{
+    max-width: 100%;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+}
 h1{
     color:blue; font-family: Verdana;
 }
@@ -30,6 +44,7 @@ a:active{
     background-color: transparent;
 }
 .containerbox{
+    white-space: nowrap;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -44,7 +59,9 @@ a:active{
 .box{
     background: #1e2944;
     width: 100%;
+    height: 20px;
     padding: 3px;
+    white-space: nowrap;
 }
 
 .block {
@@ -63,9 +80,6 @@ a:active{
     content: "";
     clear: both;
     display: table;
-}
-.life{
-    float:right;
 }
 @media only screen and (max-width: 768px)
 {
