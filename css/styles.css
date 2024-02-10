@@ -1,0 +1,117 @@
+body{
+    background-color:powderblue ;
+}
+
+h1{
+    color:blue; font-family: Verdana;
+}
+h2{
+    color:blue; font-family: Verdana;
+}
+
+a:link{
+    text-decoration: none;
+    color:aliceblue;
+    background-color: transparent;
+}
+a:visited{
+    text-decoration: none;
+    color:pink;
+    background-color: transparent;
+}
+a:hover{
+    text-decoration: none;
+    color:red;
+    background-color: transparent;
+}
+a:active{
+    text-decoration: none;
+    color:yellow;
+    background-color: transparent;
+}
+.containerbox{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.linkbox{
+    margin:10px;
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 20px;
+}
+.box{
+    background: #1e2944;
+    width: 100%;
+    padding: 3px;
+}
+
+.block {
+    display: block;
+    width: 25%;
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.life{
+    float:right;
+}
+@media only screen and (max-width: 768px)
+{
+    /* For mobile phones: */
+    [class*="col-"] {width: 100%;}
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    }
+
+@media only screen and (min-width: 768px)
+{
+    /*For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    .containerbox{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+}
+
+
+
+
